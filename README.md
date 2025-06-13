@@ -56,13 +56,19 @@ Aplikasi ini adalah sebuah sistem berbasis web yang bertujuan untuk membantu pen
 
 ## Cara Instalasi
 
-1.  **Clone Repository (Jika ada di Git)**:
+1.  **Pastikan Python 3.11 Terinstal**:
+    Aplikasi ini dikembangkan menggunakan Python versi 3.11. Disarankan untuk menggunakan versi ini agar tidak mengalami kendala kompatibilitas. Anda dapat mengeceknya dengan:
+    ```bash
+    python --version
+    ```
+
+2.  **Clone Repository (Jika ada di Git)**:
     ```bash
     git clone <URL_REPOSITORY_INI>
     cd <NAMA_DIREKTORI_PROYEK>
     ```
 
-2.  **Buat dan Aktifkan Virtual Environment (Direkomendasikan)**:
+3.  **Buat dan Aktifkan Virtual Environment (Direkomendasikan)**:
     ```bash
     python -m venv venv
     # Windows
@@ -71,7 +77,7 @@ Aplikasi ini adalah sebuah sistem berbasis web yang bertujuan untuk membantu pen
     source venv/bin/activate
     ```
 
-3.  **Install Dependencies**:
+4.  **Install Dependencies**:
     Jika `requirements.txt` sudah ada:
     ```bash
     pip install -r requirements.txt
